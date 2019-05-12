@@ -9,6 +9,11 @@ import android.view.View;
 
 public class gameActivity extends AppCompatActivity {
 
+    int health;
+    int sanity;
+    int coolness;
+    int relationhip;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,5 +30,7 @@ public class gameActivity extends AppCompatActivity {
             }
         });
     }
+
+
 
 }
